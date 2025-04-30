@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="h-[97.7vh] w-56 rounded-3xl bg-[#0F0655A6] fixed  top-2 left-3 transition-all duration-1000 max-sm:h-screen max-sm:w-12 max-sm:block hover:shadow-[0_0_15px_5px_rgba(254,147,50,0.7)_inset] max-sm:fixed max-md:w-12">
       <ul className="flex flex-col items-center justify-start  p-8 space-y-6 gap-12">
         <img
-          onClick={() => (window.location.href = "#http://chaiwalichai.com/")}
+          onClick={() => (window.location.href = "https://chai-code-landing-page-qd4g.vercel.app")}
           src={ChaiCode}
           alt="chaicode"
           className="w-50 h-12 translate-y-3 max-sm:hidden cursor-pointer"
