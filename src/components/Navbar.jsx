@@ -19,6 +19,7 @@ const Navbar = () => {
           className="w-50 h-12 translate-y-3 max-sm:hidden cursor-pointer"
         />
         <img
+        onClick={() => (window.location.href = "https://chai-code-landing-page-qd4g.vercel.app")}
           src={ChaiWhite}
           alt="chai"
           className="sm:hidden w-10 h-10 translate-y-3  "
